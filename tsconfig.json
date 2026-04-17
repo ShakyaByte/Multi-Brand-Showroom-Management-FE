@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+       "@/shared/components/*": ["./app/shared/components/*"],
+      "@/shared/*": ["./app/shared/*"],
+       "@/components/*": ["./app/components/*"],
     }
   },
   "include": [
@@ -30,5 +33,5 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "Taskmandu"]
 }
